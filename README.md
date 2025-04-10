@@ -16,7 +16,7 @@ O ile nie podano inaczej, `[tagi]` oznaczają, że mod należy do kategorii z kt
 * Konkrete (FancyMenu, Drippy Loading Screen)
 * Melody (FancyMenu)
 * Architectury API (dość sporo)
-* Balm (wszelkie mody Blaya, ale nie wiem kim jest Blay)
+* Balm (wszelkie mody Blaya, np. zainstalowany Nether Portal Fix; w przyszłości mogą się jeszcze pojawić Waystoney, a może nawet i KleeSlaby i/lub Cooking for Blockheads)
 * libIPN (IPN *(duh)*)
 * Searchables (Controlling)
 * Immersive Aircraft (Man of Many Planes) - *Niby dodaje jakieś własne basic-ass samolociki, but let's face it: it's no fun without MoMP.*
@@ -41,10 +41,10 @@ Baza naszego modpacka. Dość niekonwenjconalnie - zazwycaj Fabricowe GhostLandy
 * Very Many Players
 * *biblioteki: FAPI, CCAPI, Indium*
 
-## Z Fabulously Optimised (27 (licząc replacements)  *+6 libs, +9 z SO, +6 usuniętych*):
+## Z Fabulously Optimised (24 (licząc 2 replacements)  *+6 libs, +9 z SO, +9 usuniętych*):
 Ahhhh, Fabulously Optimised... Legenda GhostLanda. The One the Makes GhostLands. Bez FO nie byłoby GL na Fabricu. Problem jest tylko taki, że FO to kinda średni modpack pod optymalizację! Dodaje niecałą połowę rzeczy z SO, który jest złotym standardem optymalizacji (UPDATE: Apparently nie, Performium is (too bad I found out so late). Ale jest wciąż bardzo dobry.); nawpychali dużo modów typu QOL (to be fair - my też, ale my nie udajemy, że głównym celem GhostLand Baseline jest optymalizacja, nawet jeśli nam na niej bardzo zależy), z których większość jest mid i musiałem usunąć; mówią, że jest well-researched, ale to clearly bullshit (inaczej dodaliby C2ME, a nie dodali by Debugify oraz Borderless Mining - patrz: mój rant poniżej, oraz warning autora Cubes Without Borders na temat podobnych modów). Overall - no, takie mocne 2/10. Mimo wszystko, mieli tu parę ciekawych pomysłów. Więc zaimportowałem niektóre co to lepsze mody stąd z powrtoem na naszą paczkę. Poniżej jest ich lista. Gwiazdką oznaczyłem rzeczy, które już były w SO. Also, dołączyłem tagi (bo FO dotyka sporo gałęzi poza optymalizacją, so it's not as simple as it was on SO) i opisy (bo niektóre mody są mało oczywiste - ofc, jeśli po samej nazwie widać, to nie pisałem). Btw! FO dodaje sporo modów, które mogą być wykorzystywane przez texturepacki. Ale tego typu mody często są dependencjami dla innych modów, po prostu. Więc raczej dobrze, że tu są (nawet, jeśli nie mamy żadnego texturepacka, który akurat *jakiegoś konkretnego* używa). Not to mention, że ktoś może chcieć zsideloadować jakąś paczkę (a konieczność pobierania dodatkowych modów dla jej obsługi zawsze jest irytująca - trust me, I've been there).
 * ~~LambDynamicLights~~ `[QOL, Ambience]` **ZASTĄPIONE: Sodium Dynamic Lights**
-* FabricSkyBoxes Interop `[Tekstury]` - *Dodaje support dla większej ilości formatów skyboxa w Fabric Skyboxes.*
+* ~~FabricSkyBoxes Interop~~ `[Tekstury]` - *Dodaje support dla większej ilości formatów skyboxa w Fabric Skyboxes.* **USUNIĘTY: WYWALONO FSB**
 * Dynamic FPS `[Optymalizacja, QOL]` - *Spowalnia grę w tle, żeby nie zabierała zasobów, gdy np. szukasz czegoś w necie.*
 * Better Mount HUD `[QOL]` - *Pozwala widzieć jedzenie oraz XP-bar, gdy jedziesz konno.*
 * ~~Borderless Mining~~ `[QOL]` **ZASTĄPIONE: CUBES WITHOUT BORDERS**
@@ -54,7 +54,7 @@ Ahhhh, Fabulously Optimised... Legenda GhostLanda. The One the Makes GhostLands.
 * \*FerriteCore `[Optymalizacja]`
 * \*Enhanced Block Entities `[Optymalizacja]`
 * ~~FADELESS~~ `[QOL]` **USUNIĘTY: ŹLE WYGLĄDA**
-* FabricSkyboxes `[Tekstury]` - *Wymagany przez Dramatic Skies.*
+* ~~FabricSkyboxes~~ `[Tekstury]` - *Wymagany przez Dramatic Skies. Tak, wiem, Iwo nie lubi DS. Ale trzeba przyznać, że dla ludzi, którzy nie mogą odpalić shaderów - DS pozwala osiągnąć trochę tego shader-like feel.* **USUNIĘTY: JEDNAK NIE (to jednak Celestial był)**
 * Mod Menu `[QOL]` - *Fabric nie ma wbudowanej modlisty, więc ten mod ją dodaje*
 * Model Gap Fix `[Poprawki błędów]`
 * AdvancementInfo `[QOL]` - *Pokazuje co potrzebujesz do danego achievementa.* **[DEPRECATED - jak będzie powodował niekompatybilność, to usuniemy]**
@@ -79,7 +79,7 @@ Ahhhh, Fabulously Optimised... Legenda GhostLanda. The One the Makes GhostLands.
 * \*Entity Culling `[Optymalizacja]`
 * Animatica `[Tekstury]` - *animowane tesktury dla rzeczy które ich nie mają by default*
 * Reese's Sodium Options `[QOL]` - *Lepsze UI ustawień dla Sodium. Jeśli UI Sodium wygląda jakoś „dziwnie” (np. GL6), to pewnie dlatego, że nie było tego moda.*
-* Controlify `[QOL]` - *Dodaje wsparcie kontrolera* **[WYMAGA CONFIGU! - Chować informację o potrzebie natywnej biblioteki by default]**
+* ~~Controlify~~ `[QOL]` **USUNIĘTY: POWODOWAŁ START-CRASHE PO UPDATE FABRICA**
 * ~~Capes~~ `[Social]` **USUNIĘTY: NIKT Z NAS NIE MA O.F. CAPE** *(jak masz, to powiedz - przywrócimy)*
 * ~~Debugify~~ `[Poprawki błędów]` **USUNIĘTY: AUTOR KOMPLETNIE NIE WIE CO ROBI; KRADNIE BUGFIXY INNYM MODOM I PAKUJE JE DO SWOJEGO; JAK BĘDZIE Z TYM PROBLEM, TO NIE DOSTANIEMY SUPPORTU, BO SAM NIE BĘDZIE WIEDZIAŁ; LEPIEJ BEZPOŚREDNIO DODAĆ MODY NA BUGFIXY**
 * Lanuguage Reload `[QOL]` - *Pozwala ustalić priorytet języków oraz zmieniać ustawienia języka bez reloadu tekstur*
@@ -112,12 +112,13 @@ Ahhhh, Fabulously Optimised... Legenda GhostLanda. The One the Makes GhostLands.
 * *z SO: wszystko, poza NCR (14)*
 * *z FO: Dynamic FPS, FastQuit, Sodium Extra, rzeczy z SO (nie liczę)*
 
-## Poprawki błędów (5  *+3 z FO*)
+## Poprawki błędów (6  *+3 z FO*)
 * Video Tape - *Jak „Memory Leak Fix”, ale dla GPU.*
 * Nether Portal Fix - *Ułatwia łączenie portali.*
 * AntiGhost - *Usuwa ghost blocki* **[DEPRECATED - jak będzie powodował niekompatybilność, to usuniemy]**
 * ServerCore `[Optymalizacja]` - *Port bugfixów i optymalizacji z PaperMC. Wszystkie te, co zmieniają vanilla behaviour, są disabled by default (w przeciwieństwie do PaperMC, który rutynowo psuje vanilla features).*
 * Adaptive Tooltips - *Naprawia tooltipy, które na Vanilla lubią uciekać poza ekran.* **[WYMAGA CONFIGU! - USTALIĆ JAKIŚ STYL TOOLTIPÓW Z DOSTĘPNYCH]**
+* Gravestones Fix `[Compat]` - *Czyni Gravestoney eksplozjo- i wodo-odpornymi i daje im compat z Trinkets (którego jeszcze nie mamy, ale może się pojawić)*
 * *z FO: Memory Leak Fix, Model Gap Fix, ModernFix*
 
 ## Ambience (13  *+2 z FO*)
@@ -136,7 +137,7 @@ Ahhhh, Fabulously Optimised... Legenda GhostLanda. The One the Makes GhostLands.
 * Dynamic Crosshair `[QOL]` - *Zmienia wygląd celownika, w zależności na co patrzysz. Można powiedzieć, że to nie ambience, but I beg to differ. Imo, może mieć bardzo duży wpływ na ambience. Why? Bo ukrywa celownik, gdy nie patrzysz na nic. Wyobraź sobie, że patrzysz ze szczytu góry na epicką dolinę. A very emotional, breathtaking moment. Celownik na środku zaburza wtedy immersję. A z tym modem - nie. Dobra, nie wiem. Może nie do końca tu pasuje. I keep yeeting it between QOL and Ambience; can't decide. Whatever we do - DC zostaje. Michau i ja oboje jesteśmy zdania, że (mimo tego, że robi bardzo mało) ma szokująco ogromny pozytywny impact. UWAGA! Powoduje kolizję z **Better Third Person**. Wyłącz go, jeśli zamierzasz side-loadować tamtego moda (btw, B3P (poza tym jednym incompatibility) działa w paczce w 100%).*
 * *z FO: LambDynamicLights, Iris*
 
-## QOL (28 *(1 off);  +13 z FO*)
+## QOL (30 *(1 off);  +12 z FO*)
 Nie wpisywałem tu storage modów (poza Traveller's Backpack - tylko po to, żeby przekupić Tymusia), mimo że bardzo chciałem. Ale storage mody raczej powinny być zostawione pod głosowanie (np. jaki tech-styled storage mod, spośród AE2 i RS2; które drawery lubisz; etc.). Oh, btw! Apropos przekupienia Tymusia: IIRC, ty mówiłeś, że masz jakiegoś konkretnego moda na mapę, którego lubisz. Feel free to replace Xaero with it. Nie wydaje mi się, że ktoś poza tobą ma tu silną preferencję w stronę map modów, więc się dostosujemy. (Szczególnie, że Xaero zajmuje obecnie 3 sloty, a bardziej zintegrowane rozwiązanie by to zmniejszyło do jednego.)
 * Better Statistics Screen - *Poprawia ekran statystyk*
 * Better Advancements - *Poprawia ekran acheivementów*
@@ -166,16 +167,18 @@ Nie wpisywałem tu storage modów (poza Traveller's Backpack - tylko po to, żeb
 * Panoramics - *Robienie panoram. Mostly useful for dev; potem będzie można usunąć.*
 * Toggle Item Frames - *Pozwala ukrywać itemframey (bez komend), robiąc niejako survival-friendly item display.*
 * Remove Terralith Into Message - *Usuwa spam na chacie z Terralitha. Wyłączony, bo na razie nie mamy Terralith, ale chciałem to przygotować na później, gdy już będziemy implementować wyniki głosowania.*
-* *z FO: za dużo (13), żeby je tu wymieniać; liczę tylko włączone*
+* Gravestones
+* Just Hammers - *Dodaje młoty znacznie ułatwiające duże wykopaliska.*
+* *z FO: za dużo (12), żeby je tu wymieniać; liczę tylko włączone*
 
 ## FancyMenu (2)
 * FancyMenu - *Pozwala ustawić customowe menu.*
 * Drippy Loading Screen - *Pozwala ustawić customowy loading screen.*
 
-## Tekstury (2  *+8 z FO*)
+## Tekstury (2  *+6 z FO*)
 * ESF - *Entity Sound Features*
 * Celestial - *Wymagany przez Dramatic Skies. Tak, wiem, Iwo nie lubi DS. Ale trzeba przyznać, że dla ludzi, którzy nie mogą odpalić shaderów - DS pozwala osiągnąć trochę tego shader-like feel.*
-* *z FO: za dużo (8), żeby je tu wymieniać*
+* *z FO: za dużo (6), żeby je tu wymieniać*
 
 ## Compat (5 *(4 off)*)
 * Iris-GeckoLib Compat - *Dodaje compat GeckoLiba i Iris (bez tego, cienie modeli z GcL są zbugowane). Wyłączony, bo na razie nie mamy GeckoLib, ale to się bardzo szybko zmieni, gdy dodamy jakieś mody na entities, więc chciałem to przygotować na później.*
@@ -218,20 +221,20 @@ Z sumy wszystkiego powyżej wychodzi 156, ale Modrinth mówi, że modów jest 15
 * Optymalizacja: 10 dodanych + 3 FO + 14 SO + 1 PoBł = **28**
 * Poprawki błędów: 5 dodanych + 3 FO + 1 Opt = **9**
 * Ambience: 13 dodanych + 2 FO + 1 QoL = **16**
-* QOL - aktywne: 27 dodanych-aktywnych + 13 FO + 1 Amb + 1 Soc = **42**
-* QOL - wszystkie: 28 dodanych + 13 FO + 1 Amb + 1 Soc = **43**
+* QOL - aktywne: 29 dodanych-aktywnych + 12 FO + 1 Amb + 1 Soc = **43**
+* QOL - wszystkie: 30 dodanych + 12 FO + 1 Amb + 1 Soc = **44**
 * FancyMenu: **2** dodane
-* Tekstury: 2 dodane + 8 FO = **10**
-* Compat - aktywne: 1 dodane-aktywne + 1 Soc = **2**
-* Compat - wszystkie: 5 dodanych + 1 Soc = **6**
+* Tekstury: 2 dodane + 6 FO = **8**
+* Compat - aktywne: 1 dodane-aktywne + 1 Soc + 1 PoBł = **3**
+* Compat - wszystkie: 5 dodanych + 1 Soc + 1 PoBł = **7**
 * Social: 6 dodanych + 2 FO = **8**
 * Biblioteki: 16+20 = **36**
 
-Powyższe sumy zawierają w sobie dużo powtarzających się modów - by design. Wypisałem je tak „poglądowo”: żeby było wiadomo, ile modów pełni w paczce jakąś rolę - więc jak pełni kilka ról, to będzie w kilku miejscach. Anyway... To nie jest tak, że twój MC ładuje 167 modów (a tyle wychodzi z sumy powyższych). Tyle przecież nawet nie ma w paczce! Spokojnie: nie jest *aż tak* źle.
+Powyższe sumy zawierają w sobie dużo powtarzających się modów - by design. Wypisałem je tak „poglądowo”: żeby było wiadomo, ile modów pełni w paczce jakąś rolę - więc jak pełni kilka ról, to będzie w kilku miejscach. Anyway... To nie jest tak, że twój MC ładuje 161 modów, a w przyszłości nawet 166 (bo tyle wychodzi z sumy powyższych). Tyle przecież nawet nie ma w paczce! Spokojnie: nie jest *aż tak* źle.
 
-Btw, jak już jesteśmy w tym temacie: MC ładuje 154-1-4=150 - czyli  mniej, ale nadal „trochę” za dużo. Ja bym to ograniczył tak do 100 - czyli musimy „nieco” to jeszcze obciąć (nieco/trochę = dosłownie jedna trzecia xD). Ale co ciekawe, nawet usunięcie WSZYSTKICH QOL modów (które, rzeczywiście, stanowią niezbalansowanie duży odsetek paczki) nie umieści nas poniżej setki, a SZCZERZE myślałem, że tak się stanie i że większość kłótni w fazie minimalizacji paczki będzie właśnie o importance konkretnych QOLek (szczególnie, że są dość subiektywne) i że wynikiem tych kłótni (tylko tych, czyli bez zahaczania o inne kategorie modów) będzie pozbycie się tylu modów, że nas to dobije do celu (setki). A tak jednak nie będzie. Cóź, szykuje się ciekawy dyskurs, ig...
+Btw, jak już jesteśmy w tym temacie: MC ładuje 154-1-4=149 - czyli  mniej, ale nadal „trochę” za dużo. Ja bym to ograniczył tak do 100 - czyli musimy „nieco” to jeszcze obciąć (nieco/trochę = dosłownie jedna trzecia xD). Ale co ciekawe, nawet usunięcie WSZYSTKICH QOL modów (które, rzeczywiście, stanowią niezbalansowanie duży odsetek paczki) nie umieści nas poniżej setki, a SZCZERZE myślałem, że tak się stanie i że większość kłótni w fazie minimalizacji paczki będzie właśnie o importance konkretnych QOLek (szczególnie, że są dość subiektywne) i że wynikiem tych kłótni (tylko tych, czyli bez zahaczania o inne kategorie modów) będzie pozbycie się tylu modów, że nas to dobije do celu (setki). A tak jednak nie będzie. Cóź, szykuje się ciekawy dyskurs, ig...
 ### 120? Rly?
-If Tymon's limits are to be followed - trzymanie się celu setki modów w baseline, would keep us at **just 20 gameplay mods**. To ofc niedorzecznie za mało (nawet przy jego (imo mocno drakońskim) capie 3 odpowiedzi na osobę - wystarczy tylko 10 odpowiedzi w ankiecie i już przelatujemy). Here's the thing: twój szacunek 120 modów był imo O WIEEELEE zbyt optymistyczny. Od samego początku. Wszystkie Fabricowe GhostLandy do których mam dostęp miały dużo więcej. GL3 w wersji pierwszej miał ich 216, a GL5 (((which (imo) is an absolute *master-class* in vanilla-feeling packs (a przecież obecny GhostLand ma być podobny, jeśli rozumiem intencję); jeśliby wywalić z tego AE2 i MI oraz nigdy bym nie wiedział o Create (ie. nie potrafiłbym go poznać jako moda), to gdyby ktoś mi powiedział, że tak będzie wyglądać MC za 20 lat - I'd probably believe them))) dużo mniej, ale wciąż powyżej sporo 120: 173 (chociaż wzrosło do 177 w ostatniej wersji). Takie precyzyjne wartości są trochę arbitrary, ale stanowią dobry punkt odniesienia. Imo, cel zbliżony do tego z GL5 jest o wiele bardziej osiągalny. Ja bym dał cap na <190, a oficjalnie ogłosił 180 - te 9 zapasu na potencjalne integracje między zainstalowanymi modami, lub scenariusze typu „Oj pliiiisss... 180-ileś, a 180? To prawie brak różnicy. Come on, dodajcie *moda X*!”. 80 modów na gameplay features i worldgen to prefekcyjnie fine liczba, jeśli paczka ma być vanilla-like.
+If Tymon's limits are to be followed - trzymanie się celu setki modów w baseline, would keep us at **just 20 gameplay mods**. To ofc niedorzecznie za mało (nawet przy jego (imo mocno drakońskim) capie 3 odpowiedzi na osobę - wystarczy tylko 10 odpowiedzi w ankiecie i już przelatujemy). Here's the thing: twój szacunek 120 modów był imo O WIEEELEE zbyt optymistyczny. Od samego początku. Wszystkie Fabricowe GhostLandy do których mam dostęp miały dużo więcej. GL3 (ten z Depustynnieniem i powstaniem GRA) w wersji pierwszej miał ich 216, a GL5 (((przedostatni, which (imo) is an absolute *master-class* in vanilla-feeling packs (a przecież obecny GhostLand ma być podobny, jeśli rozumiem intencję); jeśliby wywalić z tego AE2 i MI oraz nigdy bym nie wiedział o Create (ie. nie potrafiłbym go poznać jako moda), to gdyby ktoś mi powiedział, że tak będzie wyglądać MC za 20 lat - I'd probably believe them))) dużo mniej, ale wciąż powyżej sporo 120: 173 (chociaż wzrosło do 177 w ostatniej wersji). Takie precyzyjne wartości są trochę arbitrary, ale stanowią dobry punkt odniesienia. Imo, cel zbliżony do tego z GL5 jest o wiele bardziej osiągalny. Ja bym dał cap na <190, a oficjalnie ogłosił 180 - te 9 zapasu na potencjalne integracje między zainstalowanymi modami, lub scenariusze typu „Oj pliiiisss... 180-ileś, a 180? To prawie brak różnicy. Come on, dodajcie *moda X*!”. 80 modów na gameplay features i worldgen to prefekcyjnie fine liczba, jeśli paczka ma być vanilla-like.
 ### SHADERY: 8
 * Complementary Reimagined i Unbound oraz Photon (klasyki GhostLandowe)
 * Miniature Shader (kinda mid, ale działa nawet na kartoflu; w połączeniu z Dramatic Skies, wygląda nawet passable)
@@ -319,8 +322,9 @@ Przy RD16 FPSy zachowywały tak, jak przy RD10-12 w Balanced Performace (tylko r
 * Zamknięto 1st-launch warning narratora MC, FancyMenu, Observable oraz Controlify.
 * Render distance na 12
 * Winieta była domyślnie wyłączona, ale to chyba zmienił jakiś mod - bo nie powinna być.
+* Zoom pod C (jak za starych dobrych OptiFineowych czasów)
 ### FINAL NOTES
-* Łącznie projektów: 154 modów + 8 shaderów + 8 texturepacków + 1 plik TXT ustawień shaderów (który Modrinth wykrywa jako shader for some reason) = **171** *Pamiętaj: to nie wszystko mody - a z pośród samych modów: niektóre są wyłączone, a inne będą usunięte. Więc ta liczba wygląda strasznie, ale na prawdę nie jest tak źle.*
+* Łącznie projektów: 154 modów + 8 shaderów + 8 texturepacków + 1 plik TXT ustawień shaderów (który Modrinth wykrywa jako shader for some reason) = **171** *Pamiętaj: to nie wszystko mody - a z pośród samych modów: niektóre są wyłączone, a inne będą usunięte. Więc ta liczba wygląda strasznie, ale na prawdę nie jest tak źle (co nie znaczy, że jest dobrze - tak z 50 modów wciąż musi polecieć).*
 * W niektórych miejscach napisałem, że trzeba ustawić keybindy. Ale prawie na pewno będzie ich dużo więcej, niż te kilka wymienionych. Obecnie, tylko powyłączałem większość keybindów, tak żeby dało się gry używać bez 300 konfliktów na guzikach. Ale trzeba będzie je jakoś thoughtfully powłączać.
 * **CONFIGI! I CAN'T STRESS THIS ENOUGH!** *z naciskiem na często pomijane rzeczy, np. CraftPresence, BetterCompatChecker lub zamknięcie paska FancyMenu*
 * Sprawdź [CONTRIBUTING](CONTRIBUTING.md), jeśli chcesz coś zmieniać w tym repo (a mam nadzieję, że chcesz - bo trochę średnio mam ochotę być jedynym robiącym thinning out tej abominacji).
