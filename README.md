@@ -35,7 +35,7 @@ Baza naszego modpacka. Dość niekonwenjconalnie - zazwycaj Fabricowe GhostLandy
 * MoreCulling
 * No Chat Reports `[Social; BEZ Optymalizacja]`
 * Noisium
-* Nvidium - *Nie trzeba mieć GPU Nvidii - bez Nvidia, po prostu nic nie będzie robił.*
+* Nvidium - *Nie trzeba mieć GPU Nvidii - bez Nvidia, po prostu nic nie będzie robił.* **[UWAGA: MOŻE CRASHOWAĆ PRZY GPU NVIDII]**
 * Sodium
 * ThreadTweak **[WYMAGA CONFIGU! - śmiem założyć, że taki już dodali, ale trzeba się upewnić i possibly dostosować go do naszych modów]**
 * Very Many Players
@@ -124,6 +124,7 @@ Ahhhh, Fabulously Optimised... Legenda GhostLanda. The One the Makes GhostLands.
 ## Ambience (13  *+2 z FO*)
 * Dynamic Surroundings - *ambient audio*
 * Sodium Shadowy Path Blocks - *przywraca naprawiany przez Sodium bug renderowania, który sprawia, że zagłębione bloki (farmland, ścieżki) wyglądają ciemniej - imo tak jest lepiej, ale that's up for debate*
+* Chunks Fade In - *prettier chunk loading*
 * Presence Footsteps - *ambient audio*
 * Sound Physics Remastered - *ambient audio*
 * Falling Leaves - *As seen in: 1.21.5*
@@ -147,6 +148,7 @@ Nie wpisywałem tu storage modów (poza Traveller's Backpack - tylko po to, żeb
 * Apple Skin - *Pokazuje więcej statystyk głodu.*
 * Xaero's Minimap
 * Xaero's World Map
+* World Preview - *pokazuje świat przy jego tworzeniu*
 * Jade - *Pokazuje na co patrzysz.*
 * MouseTweaks - *Poprawia obsługę inventory myszką.*
 * BetterF3 - *kolorki ^-^*
@@ -171,10 +173,6 @@ Nie wpisywałem tu storage modów (poza Traveller's Backpack - tylko po to, żeb
 * Just Hammers - *Dodaje młoty znacznie ułatwiające duże wykopaliska.*
 * *z FO: za dużo (12), żeby je tu wymieniać; liczę tylko włączone*
 
-## FancyMenu (2)
-* FancyMenu - *Pozwala ustawić customowe menu.*
-* Drippy Loading Screen - *Pozwala ustawić customowy loading screen.*
-
 ## Tekstury (2  *+6 z FO*)
 * ESF - *Entity Sound Features*
 * Celestial - *Wymagany przez Dramatic Skies. Tak, wiem, Iwo nie lubi DS. Ale trzeba przyznać, że dla ludzi, którzy nie mogą odpalić shaderów - DS pozwala osiągnąć trochę tego shader-like feel.*
@@ -187,7 +185,8 @@ Nie wpisywałem tu storage modów (poza Traveller's Backpack - tylko po to, żeb
 * Pufferfish's Skills x Origins - *Compat modów wymienionych w nazwie. Nie mamy żadnego, więc jest disabled - ale jest spora szansa, że się pojawi choćby jeden z nich (na Originsy będzie głosowanie, jeśli mam zgadywać), a PufferSkils dodaje levelling&skills system - **bardzo podobny do tego, z CraftMine**, z tą różnicą, że mają wewnętrzny system XP, domyślnie nie ma żadnego drzewka (trzeba użyć datapacka - można wziąć od nich przykładowy lub zrobić własny (np. inspirowany drzewkiem CraftMinea lub dopasowany do progression samego GhostLanda)) i (oczywiście) nie ma tego całego aspektu budowania światów (XP zdobywasz „naturalnie”). Michau dodał PufferSkills do swojej paczki (GL7CEu Modern) i - tbh - I'm VERY IMPRESSED. Świetny pomysł. Nie zdziwiłbym się, jeśli Mojang właśnie tym modem się inspirowało robiąc CM. Anyway, dodaję go tu w mniejszym stopniu, żeby się przygotować na obecność PufferSkills/Origins w przyszłości, a w większym, żeby po prostu rozpocząć dialog na ich temat.*
 * Create Man of Many Planes - *Wyłączony, bo na razie nie mamy Create, ale to się (mam nadzieję) zmieni, więc chciałem to przygotować na później.*
 
-## Social (6  *+2 Z FO*)
+## Social (7  *+2 Z FO*)
+* FancyMenu - *Pozwala ustawić customowe menu.*
 * Smooth Chat - *smooth-scrolluje nowe wiadomości, zamiast pokazywać je znikąd*
 * 3D Skin Layers - *Dodaje trochę objętości do skinów.*
 * Chat Heads - *Pokazuje na chacie skina osoby, która pisze.*
@@ -215,19 +214,18 @@ Related:
 * ~~Reintegrated: Chipped `[Ambience]` - *Dodaje bloki z Chipped do naturalnego worldgenu i struktur. Nie do końca ambience, ale ciężko mi to inaczej określić.*~~
 
 ## **>>*MODÓW ŁĄCZNIE*<<**
-### _**`154`**_
+### _**`155`**_
 Z sumy wszystkiego powyżej wychodzi 156, ale Modrinth mówi, że modów jest 154. Wydaje mi się, że jakieś 2 zostały pominięte w ramach Wielkiej Czystki (tzn. usunąłem je z MR, ale nie stąd), ale staram się jak mogę i nie potrafię znaleźć żadnego pominiętego z tej listy w paczce. (Jak ktoś znajdzie, wyślę Blikiem piątaka. Nie żartuję.) Jako kanoniczną ilość przyjmijmy wartość z Modrinth (Bo... Well... Tyle *rzeczywiście* jest w paczce) i po prostu pamiętajmy, że jak matma się nie zgadza, to mamy odjąć/dodać 2.
 * Debugging: 7 dodanych + 1 FO = **8**
 * Optymalizacja: 10 dodanych + 3 FO + 14 SO + 1 PoBł = **28**
 * Poprawki błędów: 5 dodanych + 3 FO + 1 Opt = **9**
-* Ambience: 13 dodanych + 2 FO + 1 QoL = **16**
+* Ambience: 14 dodanych + 2 FO + 1 QoL = **17**
 * QOL - aktywne: 29 dodanych-aktywnych + 12 FO + 1 Amb + 1 Soc = **43**
 * QOL - wszystkie: 30 dodanych + 12 FO + 1 Amb + 1 Soc = **44**
-* FancyMenu: **2** dodane
 * Tekstury: 2 dodane + 6 FO = **8**
 * Compat - aktywne: 1 dodane-aktywne + 1 Soc + 1 PoBł = **3**
 * Compat - wszystkie: 5 dodanych + 1 Soc + 1 PoBł = **7**
-* Social: 6 dodanych + 2 FO = **8**
+* Social: 7 dodanych + 2 FO = **9**
 * Biblioteki: 16+20 = **36**
 
 Powyższe sumy zawierają w sobie dużo powtarzających się modów - by design. Wypisałem je tak „poglądowo”: żeby było wiadomo, ile modów pełni w paczce jakąś rolę - więc jak pełni kilka ról, to będzie w kilku miejscach. Anyway... To nie jest tak, że twój MC ładuje 161 modów, a w przyszłości nawet 166 (bo tyle wychodzi z sumy powyższych). Tyle przecież nawet nie ma w paczce! Spokojnie: nie jest *aż tak* źle.
