@@ -121,7 +121,7 @@ Ahhhh, Fabulously Optimised... Legenda GhostLanda. The One the Makes GhostLands.
 * Gravestones Fix `[Compat]` - *Czyni Gravestoney eksplozjo- i wodo-odpornymi i daje im compat z Trinkets (którego jeszcze nie mamy, ale może się pojawić)*
 * *z FO: Memory Leak Fix, Model Gap Fix, ModernFix*
 
-## Ambience (13  *+2 z FO*)
+## Ambience (14  *+2 z FO*)
 * Dynamic Surroundings - *ambient audio*
 * Sodium Shadowy Path Blocks - *przywraca naprawiany przez Sodium bug renderowania, który sprawia, że zagłębione bloki (farmland, ścieżki) wyglądają ciemniej - imo tak jest lepiej, ale that's up for debate*
 * Chunks Fade In - *prettier chunk loading*
@@ -138,7 +138,7 @@ Ahhhh, Fabulously Optimised... Legenda GhostLanda. The One the Makes GhostLands.
 * Dynamic Crosshair `[QOL]` - *Zmienia wygląd celownika, w zależności na co patrzysz. Można powiedzieć, że to nie ambience, but I beg to differ. Imo, może mieć bardzo duży wpływ na ambience. Why? Bo ukrywa celownik, gdy nie patrzysz na nic. Wyobraź sobie, że patrzysz ze szczytu góry na epicką dolinę. A very emotional, breathtaking moment. Celownik na środku zaburza wtedy immersję. A z tym modem - nie. Dobra, nie wiem. Może nie do końca tu pasuje. I keep yeeting it between QOL and Ambience; can't decide. Whatever we do - DC zostaje. Michau i ja oboje jesteśmy zdania, że (mimo tego, że robi bardzo mało) ma szokująco ogromny pozytywny impact. UWAGA! Powoduje kolizję z **Better Third Person**. Wyłącz go, jeśli zamierzasz side-loadować tamtego moda (btw, B3P (poza tym jednym incompatibility) działa w paczce w 100%).*
 * *z FO: LambDynamicLights, Iris*
 
-## QOL (30 *(1 off);  +12 z FO*)
+## QOL (31 *(1 off);  +12 z FO*)
 Nie wpisywałem tu storage modów (poza Traveller's Backpack - tylko po to, żeby przekupić Tymusia), mimo że bardzo chciałem. Ale storage mody raczej powinny być zostawione pod głosowanie (np. jaki tech-styled storage mod, spośród AE2 i RS2; które drawery lubisz; etc.). Oh, btw! Apropos przekupienia Tymusia: IIRC, ty mówiłeś, że masz jakiegoś konkretnego moda na mapę, którego lubisz. Feel free to replace Xaero with it. Nie wydaje mi się, że ktoś poza tobą ma tu silną preferencję w stronę map modów, więc się dostosujemy. (Szczególnie, że Xaero zajmuje obecnie 3 sloty, a bardziej zintegrowane rozwiązanie by to zmniejszyło do jednego.)
 * Better Statistics Screen - *Poprawia ekran statystyk*
 * Better Advancements - *Poprawia ekran acheivementów*
@@ -215,22 +215,22 @@ Related:
 
 ## **>>*MODÓW ŁĄCZNIE*<<**
 ### _**`155`**_
-Z sumy wszystkiego powyżej wychodzi 156, ale Modrinth mówi, że modów jest 154. Wydaje mi się, że jakieś 2 zostały pominięte w ramach Wielkiej Czystki (tzn. usunąłem je z MR, ale nie stąd), ale staram się jak mogę i nie potrafię znaleźć żadnego pominiętego z tej listy w paczce. (Jak ktoś znajdzie, wyślę Blikiem piątaka. Nie żartuję.) Jako kanoniczną ilość przyjmijmy wartość z Modrinth (Bo... Well... Tyle *rzeczywiście* jest w paczce) i po prostu pamiętajmy, że jak matma się nie zgadza, to mamy odjąć/dodać 2.
+Z sumy wszystkiego powyżej wychodzi 157, ale Modrinth mówi, że modów jest 155. Wydaje mi się, że jakieś 2 zostały pominięte w ramach Wielkiej Czystki (tzn. usunąłem je z MR, ale nie stąd), ale staram się jak mogę i nie potrafię znaleźć żadnego pominiętego z tej listy w paczce. (Jak ktoś znajdzie, wyślę Blikiem piątaka. Nie żartuję.) Jako kanoniczną ilość przyjmijmy wartość z Modrinth (Bo... Well... Tyle *rzeczywiście* jest w paczce) i po prostu pamiętajmy, że jak matma się nie zgadza, to mamy odjąć/dodać 2.
 * Debugging: 7 dodanych + 1 FO = **8**
 * Optymalizacja: 10 dodanych + 3 FO + 14 SO + 1 PoBł = **28**
 * Poprawki błędów: 5 dodanych + 3 FO + 1 Opt = **9**
 * Ambience: 14 dodanych + 2 FO + 1 QoL = **17**
-* QOL - aktywne: 29 dodanych-aktywnych + 12 FO + 1 Amb + 1 Soc = **43**
-* QOL - wszystkie: 30 dodanych + 12 FO + 1 Amb + 1 Soc = **44**
+* QOL - aktywne: 30 dodanych-aktywnych + 12 FO + 1 Amb + 1 Soc = **44**
+* QOL - wszystkie: 31 dodanych + 12 FO + 1 Amb + 1 Soc = **45**
 * Tekstury: 2 dodane + 6 FO = **8**
 * Compat - aktywne: 1 dodane-aktywne + 1 Soc + 1 PoBł = **3**
 * Compat - wszystkie: 5 dodanych + 1 Soc + 1 PoBł = **7**
 * Social: 7 dodanych + 2 FO = **9**
 * Biblioteki: 16+20 = **36**
 
-Powyższe sumy zawierają w sobie dużo powtarzających się modów - by design. Wypisałem je tak „poglądowo”: żeby było wiadomo, ile modów pełni w paczce jakąś rolę - więc jak pełni kilka ról, to będzie w kilku miejscach. Anyway... To nie jest tak, że twój MC ładuje 161 modów, a w przyszłości nawet 166 (bo tyle wychodzi z sumy powyższych). Tyle przecież nawet nie ma w paczce! Spokojnie: nie jest *aż tak* źle.
+Powyższe sumy zawierają w sobie dużo powtarzających się modów - by design. Wypisałem je tak „poglądowo”: żeby było wiadomo, ile modów pełni w paczce jakąś rolę - więc jak pełni kilka ról, to będzie w kilku miejscach. Anyway... To nie jest tak, że twój MC ładuje 162 mody, a w przyszłości nawet 167 (bo tyle wychodzi z sumy powyższych). Tyle przecież nawet nie ma w paczce! Spokojnie: nie jest *aż tak* źle.
 
-Btw, jak już jesteśmy w tym temacie: MC ładuje 154-1-4=149 - czyli  mniej, ale nadal „trochę” za dużo. Ja bym to ograniczył tak do 100 - czyli musimy „nieco” to jeszcze obciąć (nieco/trochę = dosłownie jedna trzecia xD). Ale co ciekawe, nawet usunięcie WSZYSTKICH QOL modów (które, rzeczywiście, stanowią niezbalansowanie duży odsetek paczki) nie umieści nas poniżej setki, a SZCZERZE myślałem, że tak się stanie i że większość kłótni w fazie minimalizacji paczki będzie właśnie o importance konkretnych QOLek (szczególnie, że są dość subiektywne) i że wynikiem tych kłótni (tylko tych, czyli bez zahaczania o inne kategorie modów) będzie pozbycie się tylu modów, że nas to dobije do celu (setki). A tak jednak nie będzie. Cóź, szykuje się ciekawy dyskurs, ig...
+Btw, jak już jesteśmy w tym temacie: MC ładuje 155-1-4=150 - czyli  mniej, ale nadal „trochę” za dużo. Ja bym to ograniczył tak do 100 - czyli musimy „nieco” to jeszcze obciąć (nieco/trochę = dosłownie jedna trzecia xD). Ale co ciekawe, nawet usunięcie WSZYSTKICH QOL modów (które, rzeczywiście, stanowią niezbalansowanie duży odsetek paczki) nie umieści nas poniżej setki, a SZCZERZE myślałem, że tak się stanie i że większość kłótni w fazie minimalizacji paczki będzie właśnie o importance konkretnych QOLek (szczególnie, że są dość subiektywne) i że wynikiem tych kłótni (tylko tych, czyli bez zahaczania o inne kategorie modów) będzie pozbycie się tylu modów, że nas to dobije do celu (setki). A tak jednak nie będzie. Cóź, szykuje się ciekawy dyskurs, ig...
 ### 120? Rly?
 If Tymon's limits are to be followed - trzymanie się celu setki modów w baseline, would keep us at **just 20 gameplay mods**. To ofc niedorzecznie za mało (nawet przy jego (imo mocno drakońskim) capie 3 odpowiedzi na osobę - wystarczy tylko 10 odpowiedzi w ankiecie i już przelatujemy). Here's the thing: twój szacunek 120 modów był imo O WIEEELEE zbyt optymistyczny. Od samego początku. Wszystkie Fabricowe GhostLandy do których mam dostęp miały dużo więcej. GL3 (ten z Depustynnieniem i powstaniem GRA) w wersji pierwszej miał ich 216, a GL5 (((przedostatni, which (imo) is an absolute *master-class* in vanilla-feeling packs (a przecież obecny GhostLand ma być podobny, jeśli rozumiem intencję); jeśliby wywalić z tego AE2 i MI oraz nigdy bym nie wiedział o Create (ie. nie potrafiłbym go poznać jako moda), to gdyby ktoś mi powiedział, że tak będzie wyglądać MC za 20 lat - I'd probably believe them))) dużo mniej, ale wciąż powyżej sporo 120: 173 (chociaż wzrosło do 177 w ostatniej wersji). Takie precyzyjne wartości są trochę arbitrary, ale stanowią dobry punkt odniesienia. Imo, cel zbliżony do tego z GL5 jest o wiele bardziej osiągalny. Ja bym dał cap na <190, a oficjalnie ogłosił 180 - te 9 zapasu na potencjalne integracje między zainstalowanymi modami, lub scenariusze typu „Oj pliiiisss... 180-ileś, a 180? To prawie brak różnicy. Come on, dodajcie *moda X*!”. 80 modów na gameplay features i worldgen to prefekcyjnie fine liczba, jeśli paczka ma być vanilla-like.
 ### SHADERY: 8
@@ -322,7 +322,7 @@ Przy RD16 FPSy zachowywały tak, jak przy RD10-12 w Balanced Performace (tylko r
 * Winieta była domyślnie wyłączona, ale to chyba zmienił jakiś mod - bo nie powinna być.
 * Zoom pod C (jak za starych dobrych OptiFineowych czasów)
 ### FINAL NOTES
-* Łącznie projektów: 154 modów + 8 shaderów + 8 texturepacków + 1 plik TXT ustawień shaderów (który Modrinth wykrywa jako shader for some reason) = **171** *Pamiętaj: to nie wszystko mody - a z pośród samych modów: niektóre są wyłączone, a inne będą usunięte. Więc ta liczba wygląda strasznie, ale na prawdę nie jest tak źle (co nie znaczy, że jest dobrze - tak z 50 modów wciąż musi polecieć).*
+* Łącznie projektów: 155 modów + 8 shaderów + 8 texturepacków + 1 plik TXT ustawień shaderów (który Modrinth wykrywa jako shader for some reason) = **172** *Pamiętaj: to nie wszystko mody - a z pośród samych modów: niektóre są wyłączone, a inne będą usunięte. Więc ta liczba wygląda strasznie, ale na prawdę nie jest tak źle (co nie znaczy, że jest dobrze - tak z 50 modów wciąż musi polecieć).*
 * W niektórych miejscach napisałem, że trzeba ustawić keybindy. Ale prawie na pewno będzie ich dużo więcej, niż te kilka wymienionych. Obecnie, tylko powyłączałem większość keybindów, tak żeby dało się gry używać bez 300 konfliktów na guzikach. Ale trzeba będzie je jakoś thoughtfully powłączać.
 * **CONFIGI! I CAN'T STRESS THIS ENOUGH!** *z naciskiem na często pomijane rzeczy, np. CraftPresence, BetterCompatChecker lub zamknięcie paska FancyMenu*
 * Sprawdź [CONTRIBUTING](CONTRIBUTING.md), jeśli chcesz coś zmieniać w tym repo (a mam nadzieję, że chcesz - bo trochę średnio mam ochotę być jedynym robiącym thinning out tej abominacji).
