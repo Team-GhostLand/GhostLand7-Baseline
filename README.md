@@ -3,13 +3,12 @@ A list of „modded MC essentials” that for whatever reason must be inside Gho
 
 O ile nie podano inaczej, `[tagi]` oznaczają, że mod należy do kategorii z której się wziął, ale posiada też aspekty pasujące do tej z taga (np. Mod w QoL z `[Ambience]` jest QoL, ale ma w sobie elementy Ambience-moda).
 
-## Dependencje (14 udało mi się „złapać”; 20 musiało dojść „gdzieś po drodze”; pewnie można część usunąć (była Wielka Czystka, after all - część dependencji na pewno straciła swoje „dzieci”), ale to lepiej robić jak przeczyścimy wszystko inne):
+## Dependencje (13 udało mi się „złapać”; 15 musiało dojść „gdzieś po drodze”; pewnie można część usunąć (była Wielka Czystka, after all - część dependencji na pewno straciła swoje „dzieci”), ale to lepiej robić jak przeczyścimy wszystko inne):
 * Fabric API (prawie wszystko)
 * Cloth Config API (prawie wszystko)
-* YACL (idk co, ale był w FO - więc pewnie coś stamtąd)
+* YACL (Zoomify, Adaptive Tooltips)
 * Fabric Language Kotlin (dość sporo)
 * Indium (Pozwala używać z Sodium wieloma modami)
-* Omnicore (Mod Menu Stylizer)
 * Sodium Options API (niektóre mody dodające rzeczy do ustawień Sodium, które z jakiegokolwiek powodu nie robią tego przez wbudowane API Sodium) - *W połączeniu z Reese's Options: Dodaje ikonki pokazujące, który mod dodał co do ustawień Sodium. Dział dla wszystkich modów; nie tylko do tych rejestrujących przez to.*
 * CreativeCore (AmbientSounds)
 * Konkrete (FancyMenu, Drippy Loading Screen)
@@ -18,7 +17,7 @@ O ile nie podano inaczej, `[tagi]` oznaczają, że mod należy do kategorii z kt
 * Balm (wszelkie mody Blaya, np. zainstalowany Nether Portal Fix; w przyszłości mogą się jeszcze pojawić Waystoney, a może nawet i KleeSlaby i/lub Cooking for Blockheads)
 * libIPN (IPN *(duh)*)
 * Searchables (Controlling)
-* *Niezidentyfikowane (auto-dodały się gdzieś w miedzyczasie i nie zauważyłem kiedy): Almanac, Athena, Bookshelf, Cardinal Components API, CICADA, Cobweb, Forge Config API Port, FrozenLib, Iceberg, Lithostitched, Moonlight Lib, OmniCore, Puzzles Lib, Resourceful Lib, Silk, SuperMartijn642's Config Lib, SuperMartijn642's Core Lib, TCDCommons API, Textile, UniLib*
+* *Niezidentyfikowane (auto-dodały się gdzieś w miedzyczasie i nie zauważyłem kiedy): Almanac, Athena, Bookshelf, Cardinal Components API, CICADA, Cobweb, Forge Config API Port, Iceberg, Puzzles Lib, Resourceful Lib, Silk, SuperMartijn642's Config Lib, SuperMartijn642's Core Lib, TCDCommons API, UniLib*
 
 ## Z Simply Optimised (15  *+3 libs*):
 Baza naszego modpacka. Dość niekonwenjconalnie - zazwycaj Fabricowe GhostLandy bazowały na Fabulously Optimised, nie Simply Optimised. Wydaje mi się jednak, że mam bardzo dobre uzasadnienie takiej decyzji, ale przedstawię je dopiero przy FO. Na razie jesteśmy przy SO - aprops którego: SO to modpack CZYSTO pod optymalizację. Nie ma nic, poza modami na performance (nie licząc NCR). Co za tym idzie, nie daję tagów. Po prostu pamiętaj, że każdy z tych modów należy również do kategorii Optymalizacja (poza NCR - ale on został correctly oznaczony). Also - ponieważ te mody są czysto pod optymalizację, to pozwolę sobie nie dawać uzasadnień, czemu są dodane, bo przyznam, że sam nie mam do końca pewności co niektóre z nich robią. Trust the process, że tak powiem.
@@ -135,7 +134,7 @@ Ahhhh, Fabulously Optimised... Legenda GhostLanda. The One the Makes GhostLands.
 * Dynamic Crosshair `[QOL]` - *Zmienia wygląd celownika, w zależności na co patrzysz. Można powiedzieć, że to nie ambience, but I beg to differ. Imo, może mieć bardzo duży wpływ na ambience. Why? Bo ukrywa celownik, gdy nie patrzysz na nic. Wyobraź sobie, że patrzysz ze szczytu góry na epicką dolinę. A very emotional, breathtaking moment. Celownik na środku zaburza wtedy immersję. A z tym modem - nie. Dobra, nie wiem. Może nie do końca tu pasuje. I keep yeeting it between QOL and Ambience; can't decide. Whatever we do - DC zostaje. Michau i ja oboje jesteśmy zdania, że (mimo tego, że robi bardzo mało) ma szokująco ogromny pozytywny impact. UWAGA! Powoduje kolizję z **Better Third Person**. Wyłącz go, jeśli zamierzasz side-loadować tamtego moda (btw, B3P (poza tym jednym incompatibility) działa w paczce w 100%).*
 * *z FO: LambDynamicLights, Iris*
 
-## QOL (29 *(1 off);  +12 z FO*)
+## QOL (30 *(1 off);  +12 z FO*)
 Nie wpisywałem tu storage modów (poza Traveller's Backpack - tylko po to, żeby przekupić Tymusia), mimo że bardzo chciałem. Ale storage mody raczej powinny być zostawione pod głosowanie (np. jaki tech-styled storage mod, spośród AE2 i RS2; które drawery lubisz; etc.). Oh, btw! Apropos przekupienia Tymusia: IIRC, ty mówiłeś, że masz jakiegoś konkretnego moda na mapę, którego lubisz. Feel free to replace Xaero with it. Nie wydaje mi się, że ktoś poza tobą ma tu silną preferencję w stronę map modów, więc się dostosujemy. (Szczególnie, że Xaero zajmuje obecnie 3 sloty, a bardziej zintegrowane rozwiązanie by to zmniejszyło do jednego.)
 * Better Statistics Screen - *Poprawia ekran statystyk*
 * Better Advancements - *Poprawia ekran acheivementów*
@@ -166,6 +165,7 @@ Nie wpisywałem tu storage modów (poza Traveller's Backpack - tylko po to, żeb
 * Remove Terralith Into Message - *Usuwa spam na chacie z Terralitha. Wyłączony, bo na razie nie mamy Terralith, ale chciałem to przygotować na później, gdy już będziemy implementować wyniki głosowania.*
 * Gravestones
 * Just Hammers - *Dodaje młoty znacznie ułatwiające duże wykopaliska.*
+* BindPizzeria - *Pozwala wrzucać skróty klawiszowe na pizza-style menu, zamiast zapychać nimi całą klawiaturę. (Pls, let's not make it so that the whole damn keyboard is needed to play this time, I'm SO SICK OF IT! Kanciarz also had the same opinion. We must get the keybind mess under control this edition.).* **[WYMAGA CONFIGU! - GDY JUŻ BĘDZIEMY MIELI FINALNĄ LISTĘ MODÓW, *MUSIMY* OGARNĄĆ MORZE KEYBINDÓW, A DO TEGO TEN MOD SIĘ NAM BARDZO PRZYDA]**
 * *z FO: za dużo (12), żeby je tu wymieniać; liczę tylko włączone*
 
 ## Tekstury (2  *+5 z FO*)
@@ -190,31 +190,29 @@ Nie wpisywałem tu storage modów (poza Traveller's Backpack - tylko po to, żeb
 * *custom: Coś na integrację z Discordem (są pre-made, ale w porównaniu ze standardem ustawionym przez DiscordSRV na szkolnym - they all SSSUUUUUUCK).*
 * *z FO: NCR (also in SO) i More Chat History*
 
-## **>>*MODÓW ŁĄCZNIE*<<**
-### _**`149`**_
-Z sumy wszystkiego powyżej wychodzi 150, ale Modrinth mówi, że modów jest 149. Wydaje mi się, że jakiś został pominięty w ramach Wielkiej Czystki (tzn. usunąłem go z MR, ale nie stąd), ale staram się jak mogę i nie potrafię znaleźć żadnego pominiętego z tej listy w paczce. (Jak ktoś znajdzie, wyślę Blikiem piątaka. Nie żartuję.) Jako kanoniczną ilość przyjmijmy wartość z Modrinth (Bo... Well... Tyle *rzeczywiście* jest w paczce) i po prostu pamiętajmy, że jak matma się nie zgadza, to mamy odjąć/dodać 1.
+## **>>*MODÓW ŁĄCZNIE: `145`*<<**
 * Debugging - aktywne: 5 dodanych-aktywnch + 1 FO = **6**
 * Debugging - wszystkie: 6 dodanych + 1 FO = **7**
 * Optymalizacja: 10 dodanych + 3 FO + 14 SO + 1 PoBł = **28**
 * Poprawki błędów: 6 dodanych + 3 FO + 1 Opt = **10**
 * Ambience: 14 dodanych + 2 FO + 1 QoL = **17**
-* QOL - aktywne: 28 dodanych-aktywnych + 12 FO + 1 Amb + 1 Soc = **42**
-* QOL - wszystkie: 29 dodanych + 12 FO + 1 Amb + 1 Soc = **43**
+* QOL - aktywne: 29 dodanych-aktywnych + 12 FO + 1 Amb + 1 Soc = **43**
+* QOL - wszystkie: 30 dodanych + 12 FO + 1 Amb + 1 Soc = **44**
 * Tekstury: 2 dodane + 5 FO = **7**
 * Compat - aktywne: 1 dodane-aktywne + 1 Soc + 1 PoBł = **3**
 * Compat - wszystkie: 4 dodanych + 1 Soc + 1 PoBł = **6**
 * Social: 7 dodanych + 2 FO = **9**
-* Biblioteki: 14+20 = **34**
+* Biblioteki: 13+15 = **28**
 
-Powyższe sumy zawierają w sobie dużo powtarzających się modów - by design. Wypisałem je tak „poglądowo”: żeby było wiadomo, ile modów pełni w paczce jakąś rolę - więc jak pełni kilka ról, to będzie w kilku miejscach. Anyway... To nie jest tak, że twój MC ładuje 156 modóœ, a w przyszłości nawet 161 (bo tyle wychodzi z sumy powyższych). Tyle przecież nawet nie ma w paczce! Spokojnie: nie jest *aż tak* źle.
+Powyższe sumy zawierają w sobie dużo powtarzających się modów - by design. Wypisałem je tak „poglądowo”: żeby było wiadomo, ile modów pełni w paczce jakąś rolę - więc jak pełni kilka ról, to będzie w kilku miejscach. Anyway... To nie jest tak, że twój MC ładuje 151 modów, a w przyszłości nawet 156 (bo tyle wychodzi z sumy powyższych). Tyle przecież nawet nie ma w paczce! Spokojnie: nie jest *aż tak* źle.
 
-Btw, jak już jesteśmy w tym temacie: MC ładuje 149-1-1-3=145 - czyli  mniej, ale nadal „trochę” za dużo. Ja bym to ograniczył tak do 100 - czyli musimy „nieco” to jeszcze obciąć (nieco/trochę = prawie jedna trzecia xD). Ale co ciekawe, nawet usunięcie WSZYSTKICH QOL modów (które, rzeczywiście, stanowią niezbalansowanie duży odsetek paczki) nie umieści nas poniżej setki, a SZCZERZE myślałem, że tak się stanie i że większość kłótni w fazie minimalizacji paczki będzie właśnie o importance konkretnych QOLek (szczególnie, że są dość subiektywne) i że wynikiem tych kłótni (tylko tych, czyli bez zahaczania o inne kategorie modów) będzie pozbycie się tylu modów, że nas to dobije do celu (setki). A tak jednak nie będzie. Cóź, będziemy mieli więcej roboty niż pierwotnie zakładałem, ig...
-### 120? Rly?
-If Tymon's limits are to be followed - trzymanie się celu setki modów w baseline, would keep us at **just 20 gameplay mods**. To ofc niedorzecznie za mało (nawet przy jego (imo mocno drakońskim) capie 3 odpowiedzi na osobę - wystarczy tylko 10 odpowiedzi w ankiecie i już przelatujemy). Here's the thing: twój szacunek 120 modów był imo O WIEEELEE zbyt optymistyczny. Od samego początku. Wszystkie Fabricowe GhostLandy do których mam dostęp miały dużo więcej. GL3 (ten z Depustynnieniem i powstaniem GRA) w wersji pierwszej miał ich 216, a GL5 (((przedostatni, which (imo) is an absolute *master-class* in vanilla-feeling packs (a przecież obecny GhostLand ma być podobny, jeśli rozumiem intencję); jeśliby wywalić z tego AE2 i MI oraz nigdy bym nie wiedział o Create (ie. nie potrafiłbym go poznać jako moda), to gdyby ktoś mi powiedział, że tak będzie wyglądać MC za 20 lat - I'd probably believe them))) dużo mniej, ale wciąż powyżej sporo 120: 173 (chociaż wzrosło do 177 w ostatniej wersji). Takie precyzyjne wartości są trochę arbitrary, ale stanowią dobry punkt odniesienia. Imo, cel zbliżony do tego z GL5 jest o wiele bardziej osiągalny. Ja bym dał cap na <190, a oficjalnie ogłosił 180 - te 9 zapasu na potencjalne integracje między zainstalowanymi modami, lub scenariusze typu „Oj pliiiisss... 180-ileś, a 180? To prawie brak różnicy. Come on, dodajcie *moda X*!”. 80 modów na gameplay features i worldgen to prefekcyjnie fine liczba, jeśli paczka ma być vanilla-like.
+Btw, jak już jesteśmy w tym temacie: MC ładuje **145-1-1-3=140** - czyli  mniej, ale nadal „trochę” za dużo. Ja bym to ograniczył tak do 100 (which still sounds like a lot, considering Tymon's ridiculus 120 cap - but more on that later) - czyli musimy „nieco” to jeszcze obciąć (nieco/trochę = prawie jedna trzecia xD). Czysto teoretycznie, jeśli nie będziemy liczyć CME is Bad (bo - powiedzmy sobie szczerze - większość graczy nigdy go nie włączy, więc trochę nie fair byłoby go traktować jako moda w paczce - at this rate, jako do mod-capa możnaby równie dobrze liczyć resourcepacki, bo też niby są w paczce, nawet jeśli MC ich rzeczywiście nie ładuje), to mamy tylko 144 mody. Czyli usunięcie *WSZYSTKICH* QOL modów by doprowadziło nas do celu. Pytanie tylko - is it worth it? Bo spora część tych modów jest na prawdę ultra-essential, np. REI. Sure, można powiedzieć „You don't need all that QOL suff, grow up! It makes the game too easy!”, ale wydaje mi się, że taki „minimalism just for the sake of mimimalism” jest nieco bezproduktywny. Według mnie, można to rozwiązać jakoś bardziej pokojowo, bez zrzucania atomówki na prawie jedną trzecią paczki.
+
 ### SHADERY: 8
 * Complementary Reimagined i Unbound oraz Photon (klasyki GhostLandowe)
 * Miniature Shader (kinda mid, ale działa nawet na kartoflu; w połączeniu z Dramatic Skies, wygląda nawet passable)
 * Noble, Nostlgia, Pixel-perfect i Rethinking Voxels (IIRC prawie nikt z tego nie korzystał, ale często były na poprzednich GLach, więc niech będą i tu)
+
 ### TEXTUREPACKI: 8
 * 3D crops
 * Chat Reporting Helper
@@ -224,6 +222,19 @@ If Tymon's limits are to be followed - trzymanie się celu setki modów w baseli
 * Motszen's Better Leaves (sry; I butchered that)
 * Simple Grass Flowers
 * Translations for Sodium
+
+### **>>*Łącznie projektów:*<<**
+145 modów + 8 shaderów + 8 texturepacków + 1 plik TXT ustawień shaderów (który Modrinth wykrywa jako shader for some reason) = **162**
+
+*Pamiętaj: to nie wszystko mody - a z pośród samych modów: niektóre są wyłączone, a inne będą usunięte. Więc ta liczba wygląda strasznie, ale na prawdę nie jest tak źle. Co nie znaczy, że jest dobrze - tak ze 40 modów wciąż musi polecieć. A nawet wtedy byłoby mało miejsca na rzeczywiste mody - at least, jeśli liczyć cap Tymusia. Speaking of which...*
+
+120? Rly, Tymon? If his limits are to be followed - trzymanie się celu setki modów w baseline, would keep us at **just 20 gameplay mods**. To ofc niedorzecznie za mało (nawet przy jego (imo mocno drakońskim) capie 3 odpowiedzi na osobę - wystarczy tylko 10 odpowiedzi w ankiecie i już przelatujemy). Here's the thing: twój szacunek 120 modów był imo O WIEEELEE zbyt optymistyczny. Od samego początku. Wszystkie Fabricowe GhostLandy do których mam dostęp miały dużo więcej. GL3 (ten z Depustynnieniem i powstaniem GRA) w wersji pierwszej miał ich 216, a GL5 (((przedostatni, which (imo) is an absolute *master-class* in vanilla-feeling packs (a przecież obecny GhostLand ma być podobny, jeśli rozumiem intencję); jeśliby wywalić z tego AE2 i MI oraz nigdy bym nie wiedział o Create (ie. nie potrafiłbym go poznać jako moda), to gdyby ktoś mi powiedział, że tak będzie wyglądać MC za 20 lat - I'd probably believe them))) dużo mniej, ale wciąż powyżej sporo 120: 173 (chociaż wzrosło do 177 w ostatniej wersji). Takie precyzyjne wartości są trochę arbitrary, ale stanowią dobry punkt odniesienia. Imo, cel zbliżony do tego z GL5 jest o wiele bardziej osiągalny. Ja bym dał cap na <190, a oficjalnie ogłosił 180 - te 9 zapasu na potencjalne integracje między zainstalowanymi modami, lub scenariusze typu „Oj pliiiisss... 180-ileś, a 180? To prawie brak różnicy. Come on, dodajcie *moda X*!”. 80 modów na gameplay features i worldgen to prefekcyjnie fine liczba, jeśli paczka ma być vanilla-like. 20, natomiast - to szaleństwo.
+
+## **>>*FINAL NOTES AND CREDITS*<<**
+* W niektórych miejscach napisałem, że trzeba ustawić keybindy. Ale prawie na pewno będzie ich dużo więcej, niż te kilka wymienionych. Obecnie, tylko powyłączałem większość keybindów, tak żeby dało się grę obsługiwać, bez 300 konfliktów na guzikach. Ale trzeba będzie je jakoś thoughtfully powłączać z powrotem. Może nam w tym pomóc Bind Pizzeria.
+* **CONFIGI! I CAN'T STRESS THIS ENOUGH!** *z naciskiem na często pomijane rzeczy, np. CraftPresence, BetterCompatChecker lub zamknięcie paska FancyMenu (also, jeśli chodzi o FM, to fajnie by było trochę sprzątnąć menu pauzy, bo po instalacji World Preview oraz wywaleniu Remove GFARB jest mocno cluttered)*
+* Sprawdź [CONTRIBUTING](CONTRIBUTING.md), jeśli chcesz coś zmieniać w tym repo (a mam nadzieję, że chcesz - bo trochę średnio mam ochotę być jedynym robiącym thinning out tej abominacji).
+
 ### Performace analysis:
 Overall, paczka działa niesamowicie płynnie. Na obecnych ustawieniach radzi sobie nawet lepiej, niż GL6 (na... Yyy... Chyba pi-razy-drzwi podobnych ustawieniach). For all it's gameplay flaws, GL6 was *insanley* well optimised. Pamiętam mój szok z tego powodu i jak gratulowałem Iwowi (szczególnie, że paczka była na NeoForge, który historycznie radził sobie z tym średnio). Więc jak ta paczka trzyma podobny poziom, to na pewno będzie git.
 
@@ -231,7 +242,7 @@ Jeśli chodzi o jakieś bardziej concrete wartości, a nie „vibes”, to zapra
 
 Poza FPS, warto też zwrócić uwagę na bardzo dobry czas startu (zazwyczaj poniżej minuty (np. just now zrobił to w 50.747s), okazjonalnie poniżej półtorej - szczególnie przy pierwszym uruchomieniu od włączenia kompa, co ma sens, bo OS jeszcze nie zdążył zapisać plików w cache). Ma też bardzo niskie zużycie RAMu - nie przekroczyło u mnie ani razu 20% (dałem mu ok. 12,5GB - co znaczy, że paczka nie przekracza nawet 3GB i to z dużym zapasem). Tak więc jest jeszcze DUUUŻO miejsca na zapchanie jej pierdylionem modów dodających custom modele/tekstury (ie. like... 99% of all gameplay-features-focused mods), które zawsze zajmują najwięcej RAMu i czasu na starcie. :-P
 
-### ZMIENIONE DEFAULT USTAWIENIA
+### Zmienione default ustawienia:
 * Wyłączenie keybinda na fullscreen, pasek szybkiego dostępu creative (nie mówię o F3+F4, tylko swapowaniu hotbara), Narratora (Ave!), Advancementy i znaczą większości modded klawiszy.
 * Włączenie/przepisanie kilku klawiszy debuggowania dla modów oraz kamerę filmową na F10.
 * Rocket Boost samolotu na >, bo wygląda jak rakieta, a B był zajęty przez Traveler's Backpacks.
@@ -258,10 +269,8 @@ Poza FPS, warto też zwrócić uwagę na bardzo dobry czas startu (zazwyczaj pon
 * Render distance na 12
 * Winieta była domyślnie wyłączona, ale to chyba zmienił jakiś mod - bo nie powinna być.
 * Zoom pod C (jak za starych dobrych OptiFineowych czasów)
-### FINAL NOTES
-* Łącznie projektów: 149 modów + 8 shaderów + 8 texturepacków + 1 plik TXT ustawień shaderów (który Modrinth wykrywa jako shader for some reason) = **166** *Pamiętaj: to nie wszystko mody - a z pośród samych modów: niektóre są wyłączone, a inne będą usunięte. Więc ta liczba wygląda strasznie, ale na prawdę nie jest tak źle (co nie znaczy, że jest dobrze - tak z 50 modów wciąż musi polecieć).*
-* W niektórych miejscach napisałem, że trzeba ustawić keybindy. Ale prawie na pewno będzie ich dużo więcej, niż te kilka wymienionych. Obecnie, tylko powyłączałem większość keybindów, tak żeby dało się gry używać bez 300 konfliktów na guzikach. Ale trzeba będzie je jakoś thoughtfully powłączać.
-* **CONFIGI! I CAN'T STRESS THIS ENOUGH!** *z naciskiem na często pomijane rzeczy, np. CraftPresence, BetterCompatChecker lub zamknięcie paska FancyMenu (also, jeśli chodzi o FM, to fajnie by było trochę sprzątnąć menu pauzy, bo po instalacji World Preview oraz wywaleniu Remove GFARB jest mocno cluttered)*
-* Sprawdź [CONTRIBUTING](CONTRIBUTING.md), jeśli chcesz coś zmieniać w tym repo (a mam nadzieję, że chcesz - bo trochę średnio mam ochotę być jedynym robiącym thinning out tej abominacji).
-## **>>*CREDITS*<<**
-Inside an `.mrpack` uploaded to this repo, sits a JAR downloaded from [this amazing repo](https://github.com/Bliss-tbh/Async-1.20.1/) (seriously, those commit messages are awesome). Said JAR is a 1.20.1 port of Async. I *realllly* wanted to avoid embedding JARs inside the modpack file because this usually means I'm basically robbing the creator of prestige (from download count) and ad revenue, but that couldn't be avoided, as this mod has *never* been published onto any mod repository. I had to grab it directly from GH. ...Which also means that I'm not affecting any download/money numbers (they don't exist yet), so I hope this is fine. License-wise, I'm *pretty sure* it would be fine, as MIT is GPL-compatible (tho I believe GPL-compat *may* work the other way (ie. re-licensing MIT code under GPL (not GPL under MIT, as it would *seem* here), so I'd like to clarify that **I'M NOT trying to relicense that mod under MIT**, but rather it's merely a GPL file (that'll stay GPL, no matter what I do) embedded inside an MIT repo, and if you ever try to use said repo in an MIT-compliant way (but one that'd break the GPL), this file MUST be removed), but I *also* believe that it's possible to do what I did here, ie. for a non-GPL app to embed GPL code (so long as said code isn't modified in any way - which it wasn't, in this case) - eg. various proprietary GTK/Qt-based apps) - but some mod authors often have their own policies for modpack embedding, that extend outside a normal license. I couldn't find any said policies attached to this port of Async (and didn't check the original because - well - they're both *very* different mods, with this one having a lot of code modified, so that old policy shouldn't apply here), so I followed the license instead. If that's a problem, please contact us. I'm sure a solution can be worked out.
+
+### Credits:
+* Licensed under MIT, with the exception of a single file (mentioned later).
+* [Guzio](), [MidnightSP](), other contributors who didn't push any patches, but provided us help via [our Discord].
+* Inside an `.mrpack` uploaded to this repo, sits a JAR downloaded from [this amazing repo](https://github.com/Bliss-tbh/Async-1.20.1/) (seriously, those commit messages are awesome). Said JAR is a 1.20.1 port of Async. I *realllly* wanted to avoid embedding JARs inside the modpack file because this usually means I'm basically robbing the creator of prestige (from download count) and ad revenue, but that couldn't be avoided, as this mod has *never* been published onto any mod repository. I had to grab it directly from GH. ...Which also means that I'm not affecting any download/money numbers (they don't exist yet), so I hope this is fine. License-wise, I'm *pretty sure* it would be fine, as MIT is GPL-compatible (tho I believe GPL-compat *may* work the other way (ie. re-licensing MIT code under GPL (not GPL under MIT, as it would *seem* here), so I'd like to clarify that **I'M NOT trying to relicense that mod under MIT**, but rather it's merely a GPL file (that'll stay GPL, no matter what I do) embedded inside an MIT repo, and if you ever try to use said repo in an MIT-compliant way (but one that'd break the GPL), this file MUST be removed), but I *also* believe that it's possible to do what I did here, ie. for a non-GPL app to embed GPL code (so long as said code isn't modified in any way - which it wasn't, in this case) - eg. various proprietary GTK/Qt-based apps) - but some mod authors often have their own policies for modpack embedding, that extend outside a normal license. I couldn't find any said policies attached to this port of Async (and didn't check the original because - well - they're both *very* different mods, with this one having a lot of code modified, so that old policy shouldn't apply here), so I followed the license instead. If that's a problem, please contact us. I'm sure a solution can be worked out.
